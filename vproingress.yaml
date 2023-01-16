@@ -1,5 +1,5 @@
 ---
-apiVersion:  networking.k8s.io/v1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
    name: vpro-ingress
@@ -8,7 +8,7 @@ metadata:
 spec:
    ingressClassName: nginx
    rules:
-   - host: vprofile.groophy.in
+   - host: vprofile.mydevopsample.com
      http:
         paths:
         - path: /
